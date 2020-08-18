@@ -14,6 +14,30 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             Color.bluish
+            
+            RoundedRectangle(cornerRadius: 20)
+            .fill(Color.bluish)
+            .frame(width: 200, height: 200)
+            .neumorphicEffect(fillColor: Color.bluish, cornerRadius: 20)
+        
+            
+            VStack(spacing: 30) {
+                Text("Hello Surya")
+                    .font(.largeTitle)
+                .bold()
+                    .gradientText(colors: [Color.darkBluish, Color.blue], startPoint: .bottom, endPoint: .top)
+                
+                NeumorphicProgressbar(value: $value)
+                    .frame(height:20)
+                    .padding()
+                
+            
+            
+                Button("My Button"){self.value += 0.1}
+                .foregroundColor(.white)
+                .buttonStyle(DarkCapsuleButtonStyle(colors: [Color.bluish,Color.darkBluish], startPoint: .topLeading, endPoint: .bottomTrailing, padding: 20))
+                
+            }
         }
         .edgesIgnoringSafeArea(.all)
     }

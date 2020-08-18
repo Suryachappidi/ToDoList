@@ -18,6 +18,10 @@
 		D2011B7B24EBAC8400727786 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2011B7A24EBAC8400727786 /* CheckboxView.swift */; };
 		D2011B7D24EBB4CA00727786 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2011B7C24EBB4CA00727786 /* Extensions.swift */; };
 		D2011B8124EBB7C000727786 /* NeumorphicEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2011B8024EBB7C000727786 /* NeumorphicEffect.swift */; };
+		D20FBDA424EC2ECB004D8177 /* NeumorphicConcaveEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FBDA324EC2ECB004D8177 /* NeumorphicConcaveEffect.swift */; };
+		D20FBDA624EC31A9004D8177 /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FBDA524EC31A9004D8177 /* GradientText.swift */; };
+		D20FBDA824EC36C8004D8177 /* DarkStyleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FBDA724EC36C8004D8177 /* DarkStyleBackground.swift */; };
+		D20FBDAA24EC3A10004D8177 /* NeumorphicProgressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FBDA924EC3A10004D8177 /* NeumorphicProgressbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		D2011B7A24EBAC8400727786 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
 		D2011B7C24EBB4CA00727786 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D2011B8024EBB7C000727786 /* NeumorphicEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicEffect.swift; sourceTree = "<group>"; };
+		D20FBDA324EC2ECB004D8177 /* NeumorphicConcaveEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicConcaveEffect.swift; sourceTree = "<group>"; };
+		D20FBDA524EC31A9004D8177 /* GradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
+		D20FBDA724EC36C8004D8177 /* DarkStyleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkStyleBackground.swift; sourceTree = "<group>"; };
+		D20FBDA924EC3A10004D8177 /* NeumorphicProgressbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicProgressbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,10 @@
 				D2011B7A24EBAC8400727786 /* CheckboxView.swift */,
 				D2011B7C24EBB4CA00727786 /* Extensions.swift */,
 				D2011B8024EBB7C000727786 /* NeumorphicEffect.swift */,
+				D20FBDA324EC2ECB004D8177 /* NeumorphicConcaveEffect.swift */,
+				D20FBDA524EC31A9004D8177 /* GradientText.swift */,
+				D20FBDA724EC36C8004D8177 /* DarkStyleBackground.swift */,
+				D20FBDA924EC3A10004D8177 /* NeumorphicProgressbar.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -212,11 +224,15 @@
 				D2011B8124EBB7C000727786 /* NeumorphicEffect.swift in Sources */,
 				D2011B7924EB8FEF00727786 /* Progressbar.swift in Sources */,
 				D2011B5B24EB8C0500727786 /* AppDelegate.swift in Sources */,
+				D20FBDA824EC36C8004D8177 /* DarkStyleBackground.swift in Sources */,
 				D2011B6024EB8C0500727786 /* ToDoList.xcdatamodeld in Sources */,
 				D2011B7B24EBAC8400727786 /* CheckboxView.swift in Sources */,
+				D20FBDAA24EC3A10004D8177 /* NeumorphicProgressbar.swift in Sources */,
 				D2011B6224EB8C0500727786 /* ContentView.swift in Sources */,
+				D20FBDA624EC31A9004D8177 /* GradientText.swift in Sources */,
 				D2011B5D24EB8C0500727786 /* SceneDelegate.swift in Sources */,
 				D2011B7D24EBB4CA00727786 /* Extensions.swift in Sources */,
+				D20FBDA424EC2ECB004D8177 /* NeumorphicConcaveEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
