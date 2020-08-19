@@ -22,6 +22,13 @@
 		D20FBDA624EC31A9004D8177 /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FBDA524EC31A9004D8177 /* GradientText.swift */; };
 		D20FBDA824EC36C8004D8177 /* DarkStyleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FBDA724EC36C8004D8177 /* DarkStyleBackground.swift */; };
 		D20FBDAA24EC3A10004D8177 /* NeumorphicProgressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FBDA924EC3A10004D8177 /* NeumorphicProgressbar.swift */; };
+		D26EC4CF24ED09B100062ADC /* NeumorphicCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26EC4CE24ED09B100062ADC /* NeumorphicCheckbox.swift */; };
+		D26EC4D124ED0EE100062ADC /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26EC4D024ED0EE100062ADC /* CoreDataManager.swift */; };
+		D26EC4D324ED4B5100062ADC /* ToDoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26EC4D224ED4B5100062ADC /* ToDoViewModel.swift */; };
+		D26EC4D524ED4BF500062ADC /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26EC4D424ED4BF500062ADC /* ToDoListViewModel.swift */; };
+		D26EC4D724ED517000062ADC /* AddNewToDoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26EC4D624ED517000062ADC /* AddNewToDoViewModel.swift */; };
+		D26EC4D924ED51F200062ADC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26EC4D824ED51F200062ADC /* HomeScreen.swift */; };
+		D26EC4DB24ED67E900062ADC /* AddNewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26EC4DA24ED67E900062ADC /* AddNewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +49,13 @@
 		D20FBDA524EC31A9004D8177 /* GradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
 		D20FBDA724EC36C8004D8177 /* DarkStyleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkStyleBackground.swift; sourceTree = "<group>"; };
 		D20FBDA924EC3A10004D8177 /* NeumorphicProgressbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicProgressbar.swift; sourceTree = "<group>"; };
+		D26EC4CE24ED09B100062ADC /* NeumorphicCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicCheckbox.swift; sourceTree = "<group>"; };
+		D26EC4D024ED0EE100062ADC /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D26EC4D224ED4B5100062ADC /* ToDoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewModel.swift; sourceTree = "<group>"; };
+		D26EC4D424ED4BF500062ADC /* ToDoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
+		D26EC4D624ED517000062ADC /* AddNewToDoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewToDoViewModel.swift; sourceTree = "<group>"; };
+		D26EC4D824ED51F200062ADC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		D26EC4DA24ED67E900062ADC /* AddNewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +90,6 @@
 			children = (
 				D2011B7424EB8E8800727786 /* Services */,
 				D2011B7624EB8F5A00727786 /* Controls */,
-				D2011B7524EB8F3D00727786 /* Models */,
 				D2011B7724EB8F7200727786 /* ViewModels */,
 				D2011B7324EB8DD700727786 /* App */,
 				D2011B7124EB8D9F00727786 /* Views */,
@@ -96,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				D2011B6124EB8C0500727786 /* ContentView.swift */,
+				D26EC4D824ED51F200062ADC /* HomeScreen.swift */,
+				D26EC4DA24ED67E900062ADC /* AddNewToDoView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -117,15 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				D2011B5E24EB8C0500727786 /* ToDoList.xcdatamodeld */,
+				D26EC4D024ED0EE100062ADC /* CoreDataManager.swift */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		D2011B7524EB8F3D00727786 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Models;
 			sourceTree = "<group>";
 		};
 		D2011B7624EB8F5A00727786 /* Controls */ = {
@@ -139,6 +148,7 @@
 				D20FBDA524EC31A9004D8177 /* GradientText.swift */,
 				D20FBDA724EC36C8004D8177 /* DarkStyleBackground.swift */,
 				D20FBDA924EC3A10004D8177 /* NeumorphicProgressbar.swift */,
+				D26EC4CE24ED09B100062ADC /* NeumorphicCheckbox.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -146,6 +156,9 @@
 		D2011B7724EB8F7200727786 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D26EC4D224ED4B5100062ADC /* ToDoViewModel.swift */,
+				D26EC4D424ED4BF500062ADC /* ToDoListViewModel.swift */,
+				D26EC4D624ED517000062ADC /* AddNewToDoViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -221,18 +234,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26EC4D524ED4BF500062ADC /* ToDoListViewModel.swift in Sources */,
+				D26EC4DB24ED67E900062ADC /* AddNewToDoView.swift in Sources */,
 				D2011B8124EBB7C000727786 /* NeumorphicEffect.swift in Sources */,
 				D2011B7924EB8FEF00727786 /* Progressbar.swift in Sources */,
 				D2011B5B24EB8C0500727786 /* AppDelegate.swift in Sources */,
 				D20FBDA824EC36C8004D8177 /* DarkStyleBackground.swift in Sources */,
 				D2011B6024EB8C0500727786 /* ToDoList.xcdatamodeld in Sources */,
+				D26EC4D724ED517000062ADC /* AddNewToDoViewModel.swift in Sources */,
 				D2011B7B24EBAC8400727786 /* CheckboxView.swift in Sources */,
 				D20FBDAA24EC3A10004D8177 /* NeumorphicProgressbar.swift in Sources */,
 				D2011B6224EB8C0500727786 /* ContentView.swift in Sources */,
 				D20FBDA624EC31A9004D8177 /* GradientText.swift in Sources */,
 				D2011B5D24EB8C0500727786 /* SceneDelegate.swift in Sources */,
+				D26EC4D324ED4B5100062ADC /* ToDoViewModel.swift in Sources */,
 				D2011B7D24EBB4CA00727786 /* Extensions.swift in Sources */,
+				D26EC4D924ED51F200062ADC /* HomeScreen.swift in Sources */,
 				D20FBDA424EC2ECB004D8177 /* NeumorphicConcaveEffect.swift in Sources */,
+				D26EC4D124ED0EE100062ADC /* CoreDataManager.swift in Sources */,
+				D26EC4CF24ED09B100062ADC /* NeumorphicCheckbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
